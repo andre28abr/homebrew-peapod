@@ -7,6 +7,7 @@ isolados e descartáveis para agentes de IA.
 
 ```sh
 brew tap andre28abr/peapod
+brew trust andre28abr/peapod   # Homebrew 6+: confiar no tap (uma vez)
 brew install peapod
 ```
 
