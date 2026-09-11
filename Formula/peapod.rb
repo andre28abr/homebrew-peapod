@@ -1,15 +1,16 @@
 # Homebrew formula for Peapod (installs the `peapod` CLI + MCP server).
 #
-# Install the tagged release straight from this formula:
-#   brew install https://raw.githubusercontent.com/andre28abr/Peapod/main/Formula/peapod.rb
+# Published through the tap github.com/andre28abr/homebrew-peapod (Homebrew 6
+# only installs formulae from taps):
+#   brew tap andre28abr/peapod && brew trust andre28abr/peapod && brew install peapod
 #
-# Or the latest dev build from main:
-#   brew install --HEAD https://raw.githubusercontent.com/andre28abr/Peapod/main/Formula/peapod.rb
+# Latest dev build from main:
+#   brew install --HEAD andre28abr/peapod/peapod
 class Peapod < Formula
   desc "Disposable, isolated sandboxes for AI agents"
   homepage "https://github.com/andre28abr/Peapod"
-  url "https://github.com/andre28abr/Peapod/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "f1d584f2b9db1cf70d7392abf44a953a0a36ee88e20e3bf065d931bd2058f2f7"
+  url "https://github.com/andre28abr/Peapod/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "17b6e137c64a130293109ffc42b1c5fb88b6fc063e9f7fed9e9b14bf5ba8f5e8"
   license "AGPL-3.0-only"
   head "https://github.com/andre28abr/Peapod.git", branch: "main"
 
@@ -26,6 +27,6 @@ class Peapod < Formula
   end
 
   test do
-    assert_match "peapod 0.2.0", shell_output("#{bin}/peapod version")
+    assert_match "peapod 0.3.0", shell_output("#{bin}/peapod version")
   end
 end
