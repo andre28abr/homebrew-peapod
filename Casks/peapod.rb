@@ -8,6 +8,7 @@ cask "peapod" do
   homepage "https://github.com/andre28abr/Peapod"
 
   depends_on macos: :ventura
+  depends_on arch: :arm64
 
   app "Peapod.app"
 
