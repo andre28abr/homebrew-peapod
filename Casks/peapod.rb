@@ -1,6 +1,6 @@
 cask "peapod" do
-  version "0.2.0"
-  sha256 "e125ba78e27cc030784dc662f6e48b9b1d2987e920a91a3cce0ab90e05d4674d"
+  version "0.3.0"
+  sha256 "410a112ff48a5a8f3dba72fd473937ca088a93520b95e0aa7f635fdfb02f5dc0"
 
   url "https://github.com/andre28abr/Peapod/releases/download/v#{version}/Peapod.dmg"
   name "Peapod"
