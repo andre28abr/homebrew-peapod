@@ -43,3 +43,7 @@ brew install --HEAD andre28abr/peapod/peapod
 ---
 
 Licença AGPL-3.0 · veja o [repositório principal](https://github.com/andre28abr/Peapod).
+
+## Contribuições
+
+Obrigado pelo interesse! Este é um projeto pessoal, mantido por uma pessoa só, e por isso não consigo revisar nem acompanhar contribuições de fora. Pedidos de alteração (pull requests) serão fechados sem análise, sem nenhuma desconsideração por quem enviou. Se quiser adaptar o projeto às suas necessidades, fique à vontade para fazer um fork, dentro dos termos da licença.
