@@ -10,7 +10,7 @@ class Peapod < Formula
   desc "Disposable, isolated sandboxes for AI agents"
   homepage "https://github.com/andre28abr/Peapod"
   url "https://github.com/andre28abr/Peapod/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "17b6e137c64a130293109ffc42b1c5fb88b6fc063e9f7fed9e9b14bf5ba8f5e8"
+  sha256 "882f2f1537a0353f57fe5bf373175969bfb8f4fc6924441c5bbb81fba0ceed73"
   license "AGPL-3.0-only"
   head "https://github.com/andre28abr/Peapod.git", branch: "main"
 
